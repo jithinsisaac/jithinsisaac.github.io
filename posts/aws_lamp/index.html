@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+
+    <meta name="author" content="Jithin Saji Isaac">
+    <meta name="description" content="The post demonstrates installation of LAMP stack on AWS EC2">
+    <meta name="keywords" content="blog,developer,personal">
+
+    
+      <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+    
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="LAMP Stack on AWS EC2"/>
+<meta name="twitter:description" content="The post demonstrates installation of LAMP stack on AWS EC2"/>
+
+    <meta property="og:title" content="LAMP Stack on AWS EC2" />
+<meta property="og:description" content="The post demonstrates installation of LAMP stack on AWS EC2" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jithinisaac.dblabs.in/posts/aws_lamp/" />
+<meta property="article:published_time" content="2020-08-27T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-08-27T00:00:00+00:00" />
+
+
+
+
+    
+      <base href="https://jithinisaac.dblabs.in/posts/aws_lamp/">
+    
+    <title>
+  LAMP Stack on AWS EC2 · Home
+</title>
+
+    
+      <link rel="canonical" href="https://jithinisaac.dblabs.in/posts/aws_lamp/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://jithinisaac.dblabs.in/css/coder.min.48b757908472e3abc96c82fcff3b02896aeaf64f8944096889031057db7233a6.css" integrity="sha256-SLdXkIRy46vJbIL8/zsCiWrq9k&#43;JRAloiQMQV9tyM6Y=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://jithinisaac.dblabs.in/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://jithinisaac.dblabs.in/images/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.73.0" />
+  </head>
+
+  
+  
+  <body class="colorscheme-light"
+        onload=" twemoji.parse(document.body); "
+  >
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://jithinisaac.dblabs.in/">
+      Home
+    </a>
+    
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://jithinisaac.dblabs.in/about/">About</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://jithinisaac.dblabs.in/skills/">Skillset</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://jithinisaac.dblabs.in/posts/">Blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://jithinisaac.dblabs.in/projects/">Projects</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://jithinisaac.dblabs.in/workshops/">Workshops</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://jithinisaac.dblabs.in/academics/">Academics</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://jithinisaac.dblabs.in/contact/">Contact</a>
+          </li>
+        
+      
+      
+        
+        
+        
+          
+        
+          
+            
+              <li class="navigation-item menu-separator">
+                <span>|</span>
+              </li>
+              
+            
+            <li class="navigation-item">
+              <a href="https://jithinisaac.dblabs.in/hi/">हिन्दी</a>
+            </li>
+          
+        
+      
+    </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">LAMP Stack on AWS EC2</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              <time datetime='2020-08-27T00:00:00Z'>
+                August 27, 2020
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              2-minute read
+            </span>
+          </div>
+          
+          
+        </div>
+      </header>
+
+      <div>
+        
+        <p>This post gives you a quick writeup on running a LAMP stack on AWS EC2 instance.</p>
+<p><strong>LAMP is the acronym of</strong></p>
+<ul>
+<li>Linux</li>
+<li>Apache Web Server</li>
+<li>MariaDB (Relational database)</li>
+<li>PHP (Serverside language)</li>
+</ul>
+<p><strong>Steps to follow to install a LAMP Stack on AWS EC2</strong></p>
+<ol>
+<li>Create an EC2 instance with the following specifications
+<ul>
+<li>Ubuntu 18.04 Server LTS OS</li>
+<li>Minimum 1 vCPU &amp; 2 GB of RAM</li>
+<li>Minimum 8 GB of SSD</li>
+<li>In Security policy,
+<ul>
+<li>Open SSH Port 22 to be accessed only from your local machine</li>
+<li>Open HTTP Port 80 &amp; HTTPS Port 443 to be accessed from any IP (0.0.0.0/0)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Connect to your EC2 instance via your preferred SSH Client. You will need to connect via the EC2 IP on Port 22 and user &lsquo;ubuntu&rsquo;. Once connected, follow the below given procedure.</li>
+<li>Update your Ubuntu repositories</li>
+</ol>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo apt update
+</code></pre></div><ol start="4">
+<li>Install LAMP Stack</li>
+</ol>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo apt install apache2 php libapache2-mod-php php-mysql mariadb-server phpmyadmin
+</code></pre></div><ol start="5">
+<li>Currently access to /var/www/html folder is only given to root. Change it to give access to the &lsquo;ubuntu&rsquo; user.</li>
+</ol>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo chown -R ubuntu:ubuntu /var/www/html
+sudo chmod -R 755 /var/www/html 
+</code></pre></div><ol start="6">
+<li>Enter into the MariaDB shell to create database and new user. MariaDB currently does not  have a password for the root user. For production servers, this will need to be enabled.</li>
+</ol>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo mysql -u root -p
+(no password, just press Enter)
+</code></pre></div><ol start="7">
+<li>Inside the MariaDB shell, create the database, tables, new user and new user access. New user name is &lsquo;bda&rsquo; and password is &lsquo;bda@dbit&rsquo;. Access to  this new user is only via localhost. Access to this  database via the new user from any IP requires a few more steps of setup.</li>
+</ol>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">CREATE DATABASE form;
+
+USE form;
+
+CREATE TABLE info(id smallint primary key auto_increment,fname varchar(20), lname varchar(20),gender varchar(10), email varchar(30) UNIQUE, mobile bigint UNIQUE);
+
+CREATE USER &#39;bda&#39;@&#39;localhost&#39; IDENTIFIED BY &#39;bda@dbit&#39;;
+
+GRANT ALL PRIVILEGES ON form.* TO &#39;bda&#39;@&#39;localhost&#39;;
+
+FLUSH PRIVILEGES;
+
+exit;
+</code></pre></div><ol start="8">
+<li>Restart the apache web service</li>
+</ol>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo service apache2 restart
+</code></pre></div><p>This is it! This should successfully install the LAMP stack on your AWS EC2 instance. You can now write your HTML &amp; PHP files and link them to your MariaDB database. Just save all your HTML &amp; PHP files to the /var/www/html folder and access your webpage via the EC2 IP.</p>
+<p>Happy computing!</p>
+
+      </div>
+
+
+      <footer>
+        
+
+<section class="see-also">
+  
+    
+    
+    
+      <h3>See also in AWS</h3>
+      <nav>
+        <ul>
+        
+        
+          
+            <li>
+              <a href="https://jithinisaac.dblabs.in/posts/aws_metabase/">Metabase installation on AWS EC2</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://jithinisaac.dblabs.in/posts/aws_influxdb/">InfluxDB OSS installation locally or on AWS EC2</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://jithinisaac.dblabs.in/posts/aws_nodered/">Node-RED installation locally or on AWS EC2</a>
+            </li>
+          
+        
+          
+        
+        </ul>
+      </nav>
+    
+  
+    
+    
+    
+  
+</section>
+
+
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "yourdiscussshortname" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+      
+        ©
+        
+          2020 -
+        
+        2021
+         Jithin Saji Isaac 
+      
+      
+         · 
+        Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>. Hosted on <a href="https://pages.github.com/">Github Pages</a><br> 
+        <a href="https://github.com/jithinsisaac/portfolio-hugo-ijs">Website Source Code</a>      
+      
+      
+        
+      
+    </section>
+  </footer>
+
+    </main>
+
+    
+
+    
+
+    <script>
+(function(f, a, t, h, o, m){
+	a[h]=a[h]||function(){
+		(a[h].q=a[h].q||[]).push(arguments)
+	};
+	o=f.createElement('script'),
+	m=f.getElementsByTagName('script')[0];
+	o.async=1; o.src=t; o.id='fathom-script';
+	m.parentNode.insertBefore(o,m)
+})(document, window, '//analytics.example.com/tracker.js', 'fathom');
+fathom('set', 'siteId', 'ABCDE');
+fathom('trackPageview');
+</script>
+
+
+  </body>
+
+</html>

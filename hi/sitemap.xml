@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://jithinisaac.dblabs.in/hi/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jithinisaac.dblabs.in/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://jithinisaac.dblabs.in/hi/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://jithinisaac.dblabs.in/hi/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jithinisaac.dblabs.in/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://jithinisaac.dblabs.in/hi/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://jithinisaac.dblabs.in/hi/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jithinisaac.dblabs.in/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://jithinisaac.dblabs.in/hi/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://jithinisaac.dblabs.in/hi/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jithinisaac.dblabs.in/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://jithinisaac.dblabs.in/hi/"
+                />
+  </url>
+  
+</urlset>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>InfluxDB on Home</title>
+    <link>https://jithinisaac.dblabs.in/series/influxdb/</link>
+    <description>Recent content in InfluxDB on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 16 Sep 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://jithinisaac.dblabs.in/series/influxdb/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>InfluxDB OSS installation locally or on AWS EC2</title>
+      <link>https://jithinisaac.dblabs.in/posts/aws_influxdb/</link>
+      <pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jithinisaac.dblabs.in/posts/aws_influxdb/</guid>
+      <description>This post demonstrates the process of installing the OSS version of InfluxDB locally or on an AWS EC2 instance, running Ubuntu 18.04/20.04.
+InfluxDB is a time series database designed to handle high write and query loads. Sensor data used in IoT applications can be logged in this time series DB.
+&amp;lsquo;InfluxDB is meant to be used as a backing store for any use case involving large amounts of timestamped data, including DevOps monitoring, application metrics, IoT sensor data, and real-time analytics.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home</title>
+    <link>https://jithinisaac.dblabs.in/</link>
+    <description>Recent content on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 06 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://jithinisaac.dblabs.in/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Metabase installation on AWS EC2</title>
+      <link>https://jithinisaac.dblabs.in/posts/aws_metabase/</link>
+      <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jithinisaac.dblabs.in/posts/aws_metabase/</guid>
+      <description>This post demonstrates the process of installation of Metabase Business Intelligence Tool on an AWS EC2 instance.
+Metabase is an open source Business Intelligence Tool used to query databases for individuals and companies with or without knowledge of SQL.
+&amp;lsquo;Metabase is a simple and powerful analytics tool which lets anyone learn and make decisions from their company’s data. No technical knowledge required!&amp;rsquo;
+ Learn more about the Metabase at: https://www.metabase.com/ Official Installtion documentation of Metabase at: https://www.</description>
+    </item>
+    
+    <item>
+      <title>InfluxDB OSS installation locally or on AWS EC2</title>
+      <link>https://jithinisaac.dblabs.in/posts/aws_influxdb/</link>
+      <pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jithinisaac.dblabs.in/posts/aws_influxdb/</guid>
+      <description>This post demonstrates the process of installing the OSS version of InfluxDB locally or on an AWS EC2 instance, running Ubuntu 18.04/20.04.
+InfluxDB is a time series database designed to handle high write and query loads. Sensor data used in IoT applications can be logged in this time series DB.
+&amp;lsquo;InfluxDB is meant to be used as a backing store for any use case involving large amounts of timestamped data, including DevOps monitoring, application metrics, IoT sensor data, and real-time analytics.</description>
+    </item>
+    
+    <item>
+      <title>Node-RED installation locally or on AWS EC2</title>
+      <link>https://jithinisaac.dblabs.in/posts/aws_nodered/</link>
+      <pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jithinisaac.dblabs.in/posts/aws_nodered/</guid>
+      <description>This post demonstrates the process of installing Node-RED locally or on an AWS EC2 instance, running Ubuntu 18.04/20.04.
+Node-RED is a programming tool for wiring together hardware devices, APIs and online services in the Internet of Things domain. It provides a browser based pick and place block approach to wire the different components &amp;amp; blocks.
+Node-RED is built on Node.js and the flows created in Node-RED are stored in the form of JSON.</description>
+    </item>
+    
+    <item>
+      <title>LAMP Stack on AWS EC2</title>
+      <link>https://jithinisaac.dblabs.in/posts/aws_lamp/</link>
+      <pubDate>Thu, 27 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jithinisaac.dblabs.in/posts/aws_lamp/</guid>
+      <description>This post gives you a quick writeup on running a LAMP stack on AWS EC2 instance.
+LAMP is the acronym of
+ Linux Apache Web Server MariaDB (Relational database) PHP (Serverside language)  Steps to follow to install a LAMP Stack on AWS EC2
+ Create an EC2 instance with the following specifications  Ubuntu 18.04 Server LTS OS Minimum 1 vCPU &amp;amp; 2 GB of RAM Minimum 8 GB of SSD In Security policy,  Open SSH Port 22 to be accessed only from your local machine Open HTTP Port 80 &amp;amp; HTTPS Port 443 to be accessed from any IP (0.</description>
+    </item>
+    
+    <item>
+      <title>Test Blog Post</title>
+      <link>https://jithinisaac.dblabs.in/posts/test-blog/</link>
+      <pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jithinisaac.dblabs.in/posts/test-blog/</guid>
+      <description>Hugo 0.24 Released: Big archetype update + @Netlify _redirects etc. file supporthttps://t.co/X94FmYDEZJ #gohugo #golang @spf13 @bepsays
+&amp;mdash; GoHugo.io (@GoHugoIO) June 21, 2017    </description>
+    </item>
+    
+    <item>
+      <title>Theme Demo</title>
+      <link>https://jithinisaac.dblabs.in/posts/theme-demo/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jithinisaac.dblabs.in/posts/theme-demo/</guid>
+      <description>Style Demoh1 Headingh2 Headingh3 Headingh4 Headingh5 Headingh6 Heading This is bold text
+This is bold text
+This is italic text
+This is italic text
+Deleted text
+This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
+$$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jithinisaac.dblabs.in/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jithinisaac.dblabs.in/about/</guid>
+      <description>AboutAbout the site  I remember using the omnipresent wordpress, blogpost and other CMS a decade ago, and hosting it on crappy hosting services with buggy implementations. Fast forward to 2020, the necessaity of a personal portfolio webpage inspired me to try something different. The result of which is an attempt to design and make this portfolio &amp;amp; blogging page. Searching around made me read about Static Web Pages and how it was taking over the domain of blogging, and basically sites with static content, by storm.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jithinisaac.dblabs.in/academics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jithinisaac.dblabs.in/academics/</guid>
+      <description>AcademicsCourses Taught    Academic Year Semester Class Courses Taught     2020-2021 Odd Semester Second Year EXTC Network Theory     Fourth Year EXTC Big Data Analytics   2019-2020 Even Semester Second Year EXTC Signals &amp;amp; Systems     Third Year EXTC Database Management Systems    Odd Semester Second Year EXTC Circuit Theory &amp;amp; Networks     Fourth Year EXTC Big Data Analytics   2018-2019 Even Semester Second Year EXTC Signals &amp;amp; Systems     Third Year EXTC Database Management Systems    Odd Semester Second Year EXTC Circuit Theory &amp;amp; Networks     Third Year EXTC Discrete Time Signal Processing   2017-2018 Even Semester Second Year EXTC Signals &amp;amp; Systems    Odd Semester Second Year EXTC Circuit Theory &amp;amp; Networks   2016-2017 Even Semester Second Year EXTC Signals &amp;amp; Systems    Odd Semester Third Year EXTC Analog Communication   2015-2016 Even Semester Second Year EXTC MicroProcessors (Intel 8086)    Odd Semester Third Year EXTC Analog Communication     Fourth Year COMP Digital Signal Processing   2014-2015 Even Semester Third Year EXTC Discrete Time Signal Processing    Odd Semester Third Year EXTC Analog Communication   2012-2013 Even Semester Second Year EXTC Electronic Devices &amp;amp; Circuits II    Odd Semester Third Year EXTC Principles of Control Systems     Papers Published Google Scholar Link</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jithinisaac.dblabs.in/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jithinisaac.dblabs.in/contact/</guid>
+      <description>ContactIf you are interested in working on any of my current or past projects or you want to explore any of the many electronic modules which I work on, you are most welcome to drop me an email. I will reply to you at the earliest!
+ Email jithin dot dbit at the rate dbclmumbai dot org
+ Twitter DM @jithinisaac
+ Fork my Github Repositories @jithinsisaac</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jithinisaac.dblabs.in/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jithinisaac.dblabs.in/projects/</guid>
+      <description>Projects#Only completed &amp;amp; finished products showcased here
+LoRaWAN LoRaWAN Enabled Remote Solar Photo Voltaic Energy Monitoring System
+ 🤩Ongoing Project 2020-21🤩 IEEE MTT-S SIGHT funded To setup a LoRaWAN setup to monitor Solar PV installations To be setup at Walvanda, Maharashtra Faculty Team  Dr. Ashwini Kotrashetti Ms. Freda Carvalho Ms. Gejo George Mr. Tayyabali Sayyed Mr. Jithin Isaac   Student Team  Mr. Shreyas Kulkarni Mr.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jithinisaac.dblabs.in/skills/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jithinisaac.dblabs.in/skills/</guid>
+      <description>Skillsets, learned &amp;amp; ever learning!Embedded Systems &amp;amp; Internet of Things   There&amp;rsquo;s no greater satisfaction for me than to see a final fabricated embedded PCB board designed inhouse, after multiple prototyping iterations. The green solder mask with your custom silkscreen hides layers of efforts &amp;amp; hardwork undertaken to achieve the final result The globalisation of technology &amp;amp; the open source adoption at the software &amp;amp; hardware level has truly revolutionaized the way we learn &amp;amp; teach electronics!</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jithinisaac.dblabs.in/workshops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jithinisaac.dblabs.in/workshops/</guid>
+      <description>Workshops conductedLoRaWAN: Wireless System Design using Arduino, STM, KiCad, NodeRed &amp;amp; Grafana Contents of the Workshop
+ LPWAN Introduction LoRa Architecture LoRaWAN Architecture  End Node Gateway Network Server Application Server MAC Layer Spreading Factor Device Classes Device Activation Methods Indian Band for LoRa   End Node  LoRa RF Modules (HopeRF, Dorji) LoRaWAN Modules (RAK, Murata) Interfacing with ATMega328P/STML0 Application Firmware  For ATMega328P For Murata module For STM32L   Sensor Interfacing Testing &amp;amp; Debugging   Gateway  Single v/s Multi channel Gateway RAK + RPi Multi channel Gateway Gateway configuration   Network Server  The Things Network configuration Chirpstack (LoRaServer) Private Server  Installation Configuration   Talking with the End Node via Gateway   Node Red  Installation &amp;amp; Setup Flows Sensor value segregation Dashboard generation Class A &amp;amp; C implementation   Grafana  Installation &amp;amp; Setup Data storage in database Data extraction &amp;amp; Plotting    Conducted On &amp;amp; at</description>
+    </item>
+    
+    <item>
+      <title>First snippet</title>
+      <link>https://jithinisaac.dblabs.in/snippets/first/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jithinisaac.dblabs.in/snippets/first/</guid>
+      <description>This content is in snippets/first/index.md
+pwd </description>
+    </item>
+    
+    <item>
+      <title>Second snippet</title>
+      <link>https://jithinisaac.dblabs.in/snippets/second/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jithinisaac.dblabs.in/snippets/second/</guid>
+      <description>This content is in snippets/second/index.md
+ls -la </description>
+    </item>
+    
+  </channel>
+</rss>

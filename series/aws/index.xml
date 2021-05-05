@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AWS on Home</title>
+    <link>https://jithinisaac.dblabs.in/series/aws/</link>
+    <description>Recent content in AWS on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 06 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://jithinisaac.dblabs.in/series/aws/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Metabase installation on AWS EC2</title>
+      <link>https://jithinisaac.dblabs.in/posts/aws_metabase/</link>
+      <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jithinisaac.dblabs.in/posts/aws_metabase/</guid>
+      <description>This post demonstrates the process of installation of Metabase Business Intelligence Tool on an AWS EC2 instance.
+Metabase is an open source Business Intelligence Tool used to query databases for individuals and companies with or without knowledge of SQL.
+&amp;lsquo;Metabase is a simple and powerful analytics tool which lets anyone learn and make decisions from their company’s data. No technical knowledge required!&amp;rsquo;
+ Learn more about the Metabase at: https://www.metabase.com/ Official Installtion documentation of Metabase at: https://www.</description>
+    </item>
+    
+    <item>
+      <title>InfluxDB OSS installation locally or on AWS EC2</title>
+      <link>https://jithinisaac.dblabs.in/posts/aws_influxdb/</link>
+      <pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jithinisaac.dblabs.in/posts/aws_influxdb/</guid>
+      <description>This post demonstrates the process of installing the OSS version of InfluxDB locally or on an AWS EC2 instance, running Ubuntu 18.04/20.04.
+InfluxDB is a time series database designed to handle high write and query loads. Sensor data used in IoT applications can be logged in this time series DB.
+&amp;lsquo;InfluxDB is meant to be used as a backing store for any use case involving large amounts of timestamped data, including DevOps monitoring, application metrics, IoT sensor data, and real-time analytics.</description>
+    </item>
+    
+    <item>
+      <title>Node-RED installation locally or on AWS EC2</title>
+      <link>https://jithinisaac.dblabs.in/posts/aws_nodered/</link>
+      <pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jithinisaac.dblabs.in/posts/aws_nodered/</guid>
+      <description>This post demonstrates the process of installing Node-RED locally or on an AWS EC2 instance, running Ubuntu 18.04/20.04.
+Node-RED is a programming tool for wiring together hardware devices, APIs and online services in the Internet of Things domain. It provides a browser based pick and place block approach to wire the different components &amp;amp; blocks.
+Node-RED is built on Node.js and the flows created in Node-RED are stored in the form of JSON.</description>
+    </item>
+    
+    <item>
+      <title>LAMP Stack on AWS EC2</title>
+      <link>https://jithinisaac.dblabs.in/posts/aws_lamp/</link>
+      <pubDate>Thu, 27 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jithinisaac.dblabs.in/posts/aws_lamp/</guid>
+      <description>This post gives you a quick writeup on running a LAMP stack on AWS EC2 instance.
+LAMP is the acronym of
+ Linux Apache Web Server MariaDB (Relational database) PHP (Serverside language)  Steps to follow to install a LAMP Stack on AWS EC2
+ Create an EC2 instance with the following specifications  Ubuntu 18.04 Server LTS OS Minimum 1 vCPU &amp;amp; 2 GB of RAM Minimum 8 GB of SSD In Security policy,  Open SSH Port 22 to be accessed only from your local machine Open HTTP Port 80 &amp;amp; HTTPS Port 443 to be accessed from any IP (0.</description>
+    </item>
+    
+  </channel>
+</rss>

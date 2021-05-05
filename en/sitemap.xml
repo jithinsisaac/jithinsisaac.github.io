@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://jithinisaac.dblabs.in/series/aws/</loc>
+    <lastmod>2020-10-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jithinisaac.dblabs.in/</loc>
+    <lastmod>2020-10-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://jithinisaac.dblabs.in/hi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jithinisaac.dblabs.in/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://jithinisaac.dblabs.in/series/metabase/</loc>
+    <lastmod>2020-10-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jithinisaac.dblabs.in/posts/aws_metabase/</loc>
+    <lastmod>2020-10-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jithinisaac.dblabs.in/posts/</loc>
+    <lastmod>2020-10-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jithinisaac.dblabs.in/series/</loc>
+    <lastmod>2020-10-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://jithinisaac.dblabs.in/hi/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jithinisaac.dblabs.in/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://jithinisaac.dblabs.in/series/influxdb/</loc>
+    <lastmod>2020-09-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jithinisaac.dblabs.in/posts/aws_influxdb/</loc>
+    <lastmod>2020-09-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jithinisaac.dblabs.in/series/node-red/</loc>
+    <lastmod>2020-09-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jithinisaac.dblabs.in/posts/aws_nodered/</loc>
+    <lastmod>2020-09-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jithinisaac.dblabs.in/series/lamp/</loc>
+    <lastmod>2020-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jithinisaac.dblabs.in/posts/aws_lamp/</loc>
+    <lastmod>2020-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jithinisaac.dblabs.in/series/hugo/</loc>
+    <lastmod>2020-07-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jithinisaac.dblabs.in/posts/test-blog/</loc>
+    <lastmod>2020-07-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jithinisaac.dblabs.in/series/theme/</loc>
+    <lastmod>2020-07-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jithinisaac.dblabs.in/posts/theme-demo/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jithinisaac.dblabs.in/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jithinisaac.dblabs.in/academics/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jithinisaac.dblabs.in/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jithinisaac.dblabs.in/projects/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jithinisaac.dblabs.in/skills/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jithinisaac.dblabs.in/workshops/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jithinisaac.dblabs.in/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://jithinisaac.dblabs.in/hi/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jithinisaac.dblabs.in/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://jithinisaac.dblabs.in/snippets/first/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jithinisaac.dblabs.in/snippets/second/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jithinisaac.dblabs.in/snippets/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jithinisaac.dblabs.in/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://jithinisaac.dblabs.in/hi/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jithinisaac.dblabs.in/tags/"
+                />
+  </url>
+  
+</urlset>
