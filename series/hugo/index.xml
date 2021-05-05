@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on Home</title>
-    <link>https://jithinisaac.dblabs.in/series/hugo/</link>
+    <link>https://jithinsisaac.github.io/series/hugo/</link>
     <description>Recent content in Hugo on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 21 Jul 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://jithinisaac.dblabs.in/series/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jithinsisaac.github.io/series/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Test Blog Post</title>
-      <link>https://jithinisaac.dblabs.in/posts/test-blog/</link>
+      <link>https://jithinsisaac.github.io/posts/test-blog/</link>
       <pubDate>Tue, 21 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://jithinisaac.dblabs.in/posts/test-blog/</guid>
+      <guid>https://jithinsisaac.github.io/posts/test-blog/</guid>
       <description>Hugo 0.24 Released: Big archetype update + @Netlify _redirects etc. file supporthttps://t.co/X94FmYDEZJ #gohugo #golang @spf13 @bepsays
 &amp;mdash; GoHugo.io (@GoHugoIO) June 21, 2017    </description>
     </item>
     
     <item>
       <title>Theme Demo</title>
-      <link>https://jithinisaac.dblabs.in/posts/theme-demo/</link>
+      <link>https://jithinsisaac.github.io/posts/theme-demo/</link>
       <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://jithinisaac.dblabs.in/posts/theme-demo/</guid>
+      <guid>https://jithinsisaac.github.io/posts/theme-demo/</guid>
       <description>Style Demoh1 Headingh2 Headingh3 Headingh4 Headingh5 Headingh6 Heading This is bold text
 This is bold text
 This is italic text

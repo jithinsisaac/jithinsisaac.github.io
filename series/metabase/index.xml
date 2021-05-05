@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Metabase on Home</title>
-    <link>https://jithinisaac.dblabs.in/series/metabase/</link>
+    <link>https://jithinsisaac.github.io/series/metabase/</link>
     <description>Recent content in Metabase on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 06 Oct 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://jithinisaac.dblabs.in/series/metabase/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jithinsisaac.github.io/series/metabase/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Metabase installation on AWS EC2</title>
-      <link>https://jithinisaac.dblabs.in/posts/aws_metabase/</link>
+      <link>https://jithinsisaac.github.io/posts/aws_metabase/</link>
       <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://jithinisaac.dblabs.in/posts/aws_metabase/</guid>
+      <guid>https://jithinsisaac.github.io/posts/aws_metabase/</guid>
       <description>This post demonstrates the process of installation of Metabase Business Intelligence Tool on an AWS EC2 instance.
 Metabase is an open source Business Intelligence Tool used to query databases for individuals and companies with or without knowledge of SQL.
 &amp;lsquo;Metabase is a simple and powerful analytics tool which lets anyone learn and make decisions from their company’s data. No technical knowledge required!&amp;rsquo;

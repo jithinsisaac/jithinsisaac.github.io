@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LAMP on Home</title>
-    <link>https://jithinisaac.dblabs.in/series/lamp/</link>
+    <link>https://jithinsisaac.github.io/series/lamp/</link>
     <description>Recent content in LAMP on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 27 Aug 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://jithinisaac.dblabs.in/series/lamp/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jithinsisaac.github.io/series/lamp/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>LAMP Stack on AWS EC2</title>
-      <link>https://jithinisaac.dblabs.in/posts/aws_lamp/</link>
+      <link>https://jithinsisaac.github.io/posts/aws_lamp/</link>
       <pubDate>Thu, 27 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://jithinisaac.dblabs.in/posts/aws_lamp/</guid>
+      <guid>https://jithinsisaac.github.io/posts/aws_lamp/</guid>
       <description>This post gives you a quick writeup on running a LAMP stack on AWS EC2 instance.
 LAMP is the acronym of
  Linux Apache Web Server MariaDB (Relational database) PHP (Serverside language)  Steps to follow to install a LAMP Stack on AWS EC2

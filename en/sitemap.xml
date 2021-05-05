@@ -3,166 +3,166 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://jithinisaac.dblabs.in/series/aws/</loc>
+    <loc>https://jithinsisaac.github.io/series/aws/</loc>
     <lastmod>2020-10-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jithinisaac.dblabs.in/</loc>
-    <lastmod>2020-10-06T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hi"
-                href="https://jithinisaac.dblabs.in/hi/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://jithinisaac.dblabs.in/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://jithinisaac.dblabs.in/series/metabase/</loc>
-    <lastmod>2020-10-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jithinisaac.dblabs.in/posts/aws_metabase/</loc>
-    <lastmod>2020-10-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jithinisaac.dblabs.in/posts/</loc>
-    <lastmod>2020-10-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jithinisaac.dblabs.in/series/</loc>
+    <loc>https://jithinsisaac.github.io/</loc>
     <lastmod>2020-10-06T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="hi"
-                href="https://jithinisaac.dblabs.in/hi/series/"
+                href="https://jithinsisaac.github.io/hi/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jithinisaac.dblabs.in/series/"
+                href="https://jithinsisaac.github.io/"
                 />
   </url>
   
   <url>
-    <loc>https://jithinisaac.dblabs.in/series/influxdb/</loc>
+    <loc>https://jithinsisaac.github.io/series/metabase/</loc>
+    <lastmod>2020-10-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jithinsisaac.github.io/posts/aws_metabase/</loc>
+    <lastmod>2020-10-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jithinsisaac.github.io/posts/</loc>
+    <lastmod>2020-10-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jithinsisaac.github.io/series/</loc>
+    <lastmod>2020-10-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi"
+                href="https://jithinsisaac.github.io/hi/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://jithinsisaac.github.io/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://jithinsisaac.github.io/series/influxdb/</loc>
     <lastmod>2020-09-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jithinisaac.dblabs.in/posts/aws_influxdb/</loc>
+    <loc>https://jithinsisaac.github.io/posts/aws_influxdb/</loc>
     <lastmod>2020-09-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jithinisaac.dblabs.in/series/node-red/</loc>
+    <loc>https://jithinsisaac.github.io/series/node-red/</loc>
     <lastmod>2020-09-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jithinisaac.dblabs.in/posts/aws_nodered/</loc>
+    <loc>https://jithinsisaac.github.io/posts/aws_nodered/</loc>
     <lastmod>2020-09-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jithinisaac.dblabs.in/series/lamp/</loc>
+    <loc>https://jithinsisaac.github.io/series/lamp/</loc>
     <lastmod>2020-08-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jithinisaac.dblabs.in/posts/aws_lamp/</loc>
+    <loc>https://jithinsisaac.github.io/posts/aws_lamp/</loc>
     <lastmod>2020-08-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jithinisaac.dblabs.in/series/hugo/</loc>
+    <loc>https://jithinsisaac.github.io/series/hugo/</loc>
     <lastmod>2020-07-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jithinisaac.dblabs.in/posts/test-blog/</loc>
+    <loc>https://jithinsisaac.github.io/posts/test-blog/</loc>
     <lastmod>2020-07-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jithinisaac.dblabs.in/series/theme/</loc>
+    <loc>https://jithinsisaac.github.io/series/theme/</loc>
     <lastmod>2020-07-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jithinisaac.dblabs.in/posts/theme-demo/</loc>
+    <loc>https://jithinsisaac.github.io/posts/theme-demo/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jithinisaac.dblabs.in/about/</loc>
+    <loc>https://jithinsisaac.github.io/about/</loc>
   </url>
   
   <url>
-    <loc>https://jithinisaac.dblabs.in/academics/</loc>
+    <loc>https://jithinsisaac.github.io/academics/</loc>
   </url>
   
   <url>
-    <loc>https://jithinisaac.dblabs.in/contact/</loc>
+    <loc>https://jithinsisaac.github.io/contact/</loc>
   </url>
   
   <url>
-    <loc>https://jithinisaac.dblabs.in/projects/</loc>
+    <loc>https://jithinsisaac.github.io/projects/</loc>
   </url>
   
   <url>
-    <loc>https://jithinisaac.dblabs.in/skills/</loc>
+    <loc>https://jithinsisaac.github.io/skills/</loc>
   </url>
   
   <url>
-    <loc>https://jithinisaac.dblabs.in/workshops/</loc>
+    <loc>https://jithinsisaac.github.io/workshops/</loc>
   </url>
   
   <url>
-    <loc>https://jithinisaac.dblabs.in/categories/</loc>
+    <loc>https://jithinsisaac.github.io/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="hi"
-                href="https://jithinisaac.dblabs.in/hi/categories/"
+                href="https://jithinsisaac.github.io/hi/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jithinisaac.dblabs.in/categories/"
+                href="https://jithinsisaac.github.io/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://jithinisaac.dblabs.in/snippets/first/</loc>
+    <loc>https://jithinsisaac.github.io/snippets/first/</loc>
   </url>
   
   <url>
-    <loc>https://jithinisaac.dblabs.in/snippets/second/</loc>
+    <loc>https://jithinsisaac.github.io/snippets/second/</loc>
   </url>
   
   <url>
-    <loc>https://jithinisaac.dblabs.in/snippets/</loc>
+    <loc>https://jithinsisaac.github.io/snippets/</loc>
   </url>
   
   <url>
-    <loc>https://jithinisaac.dblabs.in/tags/</loc>
+    <loc>https://jithinsisaac.github.io/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="hi"
-                href="https://jithinisaac.dblabs.in/hi/tags/"
+                href="https://jithinsisaac.github.io/hi/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://jithinisaac.dblabs.in/tags/"
+                href="https://jithinsisaac.github.io/tags/"
                 />
   </url>
   
