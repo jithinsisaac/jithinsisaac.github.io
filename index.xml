@@ -119,8 +119,8 @@ $$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$</description>
       
       <guid>https://jithinsisaac.github.io/projects/</guid>
       <description>Projects#Only completed &amp;amp; finished products showcased here
-LoRaWAN LoRaWAN Enabled Remote Solar Photo Voltaic Energy Monitoring System
- 🤩Ongoing Project 2020-21🤩 IEEE MTT-S SIGHT funded To setup a LoRaWAN setup to monitor Solar PV installations To be setup at Walvanda, Maharashtra Faculty Team  Dr. Ashwini Kotrashetti Ms. Freda Carvalho Ms. Gejo George Mr. Tayyabali Sayyed Mr. Jithin Isaac   Student Team  Mr. Shreyas Kulkarni Mr.</description>
+LoRaWAN RH+T+Pressure Sensing end node
+ Completed Project 2021 Uses Microchip WLR089U0 LoRaWAN Module + BME280 Sends Humidity, Temperature &amp;amp; Pressure data via LoRaWAN to a server for data analysis Development of Firmware for the sensor end node completed Project consultancy done for TinkerBee Pvt. Ltd. during Jan-March 2021  LoRaWAN Enabled Remote Solar Photo Voltaic Energy Monitoring System</description>
     </item>
     
     <item>
