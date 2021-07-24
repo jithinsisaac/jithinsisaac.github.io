@@ -119,6 +119,7 @@ $$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$</description>
       
       <guid>https://jithinsisaac.github.io/projects/</guid>
       <description>Projects#Only completed &amp;amp; finished products showcased here
+##Numerous test protoypes &amp;amp; thousands of hours of testing &amp;amp; debugging form the backend :)
 LoRaWAN Accelerometer Sensor end node
  Completed Project 2021 Uses Microchip WLR089U0 LoRaWAN Module + ADXL355Z Sends Accelerometer data via LoRaWAN to a server for data analysis Project Deliverable: Development of Firmware &amp;amp; PCB design of sensor node PCB design consists of a minitature board consisting of Li-ion battery power supply, WLR089 and ADXL355Z accelerometer sensor Project Prototype completed for Promethean Energy Pvt.</description>
     </item>
