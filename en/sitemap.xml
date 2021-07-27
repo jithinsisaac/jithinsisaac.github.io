@@ -4,12 +4,17 @@
   
   <url>
     <loc>https://jithinsisaac.github.io/series/aws/</loc>
-    <lastmod>2020-10-06T00:00:00+00:00</lastmod>
+    <lastmod>2021-07-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jithinsisaac.github.io/series/hdp/</loc>
+    <lastmod>2021-07-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jithinsisaac.github.io/</loc>
-    <lastmod>2020-10-06T00:00:00+00:00</lastmod>
+    <lastmod>2021-07-27T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="hi"
@@ -23,23 +28,18 @@
   </url>
   
   <url>
-    <loc>https://jithinsisaac.github.io/series/metabase/</loc>
-    <lastmod>2020-10-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jithinsisaac.github.io/posts/aws_metabase/</loc>
-    <lastmod>2020-10-06T00:00:00+00:00</lastmod>
+    <loc>https://jithinsisaac.github.io/posts/hdp_sandbox/</loc>
+    <lastmod>2021-07-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jithinsisaac.github.io/posts/</loc>
-    <lastmod>2020-10-06T00:00:00+00:00</lastmod>
+    <lastmod>2021-07-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jithinsisaac.github.io/series/</loc>
-    <lastmod>2020-10-06T00:00:00+00:00</lastmod>
+    <lastmod>2021-07-27T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="hi"
@@ -50,6 +50,16 @@
                 hreflang="en"
                 href="https://jithinsisaac.github.io/series/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://jithinsisaac.github.io/series/metabase/</loc>
+    <lastmod>2020-10-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jithinsisaac.github.io/posts/aws_metabase/</loc>
+    <lastmod>2020-10-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HDP on Home</title>
+    <link>https://jithinsisaac.github.io/series/hdp/</link>
+    <description>Recent content in HDP on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 27 Jul 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://jithinsisaac.github.io/series/hdp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hortonworks Data Platform (HDP) Sandbox on AWS EC2</title>
+      <link>https://jithinsisaac.github.io/posts/hdp_sandbox/</link>
+      <pubDate>Tue, 27 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://jithinsisaac.github.io/posts/hdp_sandbox/</guid>
+      <description>This post demonstrates the process of installing the docker image of Hortonworks Data Platform (HDP) sandbox, used for exploring a single node Hadoop Cluster for Big Data Analytics applications. The installation is done on an AWS EC2 instance, running Amazon Linux 2.
+The HDP Sandbox makes it easy to get started with Apache Hadoop, Apache Spark, Apache Hive, Apache HBase, Druid and Data Analytics Studio (DAS).
+ Learn more about the HDP Sandbox at: https://www.</description>
+    </item>
+    
+  </channel>
+</rss>

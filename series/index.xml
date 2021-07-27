@@ -6,7 +6,7 @@
     <description>Recent content in Series on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 06 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Jul 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jithinsisaac.github.io/series/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,18 @@
     <item>
       <title>AWS</title>
       <link>https://jithinsisaac.github.io/series/aws/</link>
-      <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 27 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://jithinsisaac.github.io/series/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HDP</title>
+      <link>https://jithinsisaac.github.io/series/hdp/</link>
+      <pubDate>Tue, 27 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://jithinsisaac.github.io/series/hdp/</guid>
       <description></description>
     </item>
     

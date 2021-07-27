@@ -7,7 +7,7 @@
     <meta http-equiv="Content-Language" content="en">
 
     <meta name="author" content="Jithin Saji Isaac">
-    <meta name="description" content="The post demonstrates installation of Node-RED locally or on AWS EC2">
+    <meta name="description" content="Hortonworks Data Platform (HDP) Sandbox Docker on AWS EC2">
     <meta name="keywords" content="blog,developer,personal">
 
     
@@ -15,28 +15,28 @@
     
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Node-RED installation locally or on AWS EC2"/>
-<meta name="twitter:description" content="The post demonstrates installation of Node-RED locally or on AWS EC2"/>
+<meta name="twitter:title" content="Hortonworks Data Platform (HDP) Sandbox on AWS EC2"/>
+<meta name="twitter:description" content="Hortonworks Data Platform (HDP) Sandbox Docker on AWS EC2"/>
 
-    <meta property="og:title" content="Node-RED installation locally or on AWS EC2" />
-<meta property="og:description" content="The post demonstrates installation of Node-RED locally or on AWS EC2" />
+    <meta property="og:title" content="Hortonworks Data Platform (HDP) Sandbox on AWS EC2" />
+<meta property="og:description" content="Hortonworks Data Platform (HDP) Sandbox Docker on AWS EC2" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://jithinsisaac.github.io/posts/aws_nodered/" />
-<meta property="article:published_time" content="2020-09-16T00:00:00+00:00" />
-<meta property="article:modified_time" content="2020-09-16T00:00:00+00:00" />
+<meta property="og:url" content="https://jithinsisaac.github.io/posts/hdp_sandbox/" />
+<meta property="article:published_time" content="2021-07-27T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-07-27T00:00:00+00:00" />
 
 
 
 
     
-      <base href="https://jithinsisaac.github.io/posts/aws_nodered/">
+      <base href="https://jithinsisaac.github.io/posts/hdp_sandbox/">
     
     <title>
-  Node-RED installation locally or on AWS EC2 · Home
+  Hortonworks Data Platform (HDP) Sandbox on AWS EC2 · Home
 </title>
 
     
-      <link rel="canonical" href="https://jithinsisaac.github.io/posts/aws_nodered/">
+      <link rel="canonical" href="https://jithinsisaac.github.io/posts/hdp_sandbox/">
     
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
@@ -140,14 +140,14 @@
     <article>
       <header>
         <div class="post-title">
-          <h1 class="title">Node-RED installation locally or on AWS EC2</h1>
+          <h1 class="title">Hortonworks Data Platform (HDP) Sandbox on AWS EC2</h1>
         </div>
         <div class="post-meta">
           <div class="date">
             <span class="posted-on">
               <i class="fas fa-calendar"></i>
-              <time datetime='2020-09-16T00:00:00Z'>
-                September 16, 2020
+              <time datetime='2021-07-27T00:00:00Z'>
+                July 27, 2021
               </time>
             </span>
             <span class="reading-time">
@@ -162,57 +162,111 @@
 
       <div>
         
-        <p>This post demonstrates the process of installing Node-RED locally or on an AWS EC2 instance, running Ubuntu 18.04/20.04.</p>
-<p>Node-RED is a programming tool for wiring together hardware devices, APIs and online services   in the Internet of Things domain. It provides a browser based pick and place block approach to wire the different components &amp; blocks.</p>
-<p>Node-RED is built on Node.js and the flows created in Node-RED are stored in the form of JSON. These flows can be easily imported and exported for sharing with others.</p>
-<p>Official Installtion documentation of Node-RED at: <a href="https://nodered.org/docs/getting-started/raspberrypi">https://nodered.org/docs/getting-started/raspberrypi</a></p>
-<p><strong>Installation of Node-RED locally or in an AWS EC2 instance</strong></p>
+        <p>This post demonstrates the process of installing the docker image of Hortonworks Data Platform (HDP) sandbox, used  for exploring a single node Hadoop Cluster for Big Data Analytics applications. The installation is done on an AWS EC2 instance, running Amazon Linux 2.</p>
+<p>The HDP Sandbox makes it easy to get started with Apache Hadoop, Apache Spark, Apache Hive, Apache HBase, Druid and Data Analytics Studio (DAS).</p>
+<ul>
+<li>Learn more about the HDP Sandbox at: <a href="https://www.cloudera.com/products/hdp.html">https://www.cloudera.com/products/hdp.html</a></li>
+<li>Official Installtion documentation of HDP Sandbox at: <a href="https://www.cloudera.com/downloads/hortonworks-sandbox/hdp.html">https://www.cloudera.com/downloads/hortonworks-sandbox/hdp.html</a></li>
+</ul>
+<p><strong>Installation of HDP Sandbox via Docker on an AWS EC2 instance</strong></p>
 <ol>
 <li>Spin up an AWS EC2 instance with the following specifications
 <ul>
-<li>Ubuntu 18.04 Server LTS OS</li>
-<li>2 vCPUs, 4 GB RAM</li>
+<li>OS:  <strong>Amazon Linux 2</strong> (Amazon Linux 2 AMI (HVM), SSD Volume Type)</li>
+<li>4 vCPUs, 16 GB RAM   (t2.xlarge)</li>
 <li>In Security policy,
 <ul>
 <li>Open SSH Port 22 to be accessed only from your local machine</li>
-<li>Open TCP Port 1880 to be accessed from any IP (0.0.0.0/0)</li>
+<li>Open TCP Port 8080 to be accessed from any IPv4 (0.0.0.0/0)</li>
+<li>Open TCP Port 2222 to access the Sandbox through SSH from any IPv4</li>
 </ul>
 </li>
+<li>Default user name is ec2-user</li>
 </ul>
 </li>
-<li>In the terminal, Update your Ubuntu repositories</li>
+<li>In the terminal, Update your Amazon Linux repositories</li>
 </ol>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo apt update
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo yum update -y
 </code></pre></div><ol start="3">
-<li>Run this script to install Node-RED in an Ubuntu/Debian OS or on a Rasperry Pi running Raspian OS</li>
+<li>Install &amp; Start Docker</li>
 </ol>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">bash &lt;(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo amazon-linux-extras install docker
+sudo service docker start
 </code></pre></div><ol start="4">
-<li>Enable Node-RED to start at boot up.</li>
+<li>Add the ec2-user to the docker group so you can execute Docker commands without using sudo.</li>
 </ol>
-<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo systemctl enable nodered.service
-sudo systemctl start nodered.service
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo usermod -a -G docker ec2-user
 </code></pre></div><ol start="5">
-<li>Start Node-RED in your browser by putting in the URL as
-<ul>
-<li>http://localhost:1880 if you are installing in your local Ubuntu machine</li>
-<li>http://AWS-EC2-PublicIP:1880 if you are installing in an AWS EC2 instance
-<ul>
-<li>E.g. http://15.206.178.52:1880</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Following should be your browser output if running in an AWS EC2 instance</li>
+<li>Log out and log back in again to pick up the new docker group permissions.</li>
 </ol>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">logout
+</code></pre></div><ol start="6">
+<li>
+<p>Login again with same username: ec2-user</p>
+</li>
+<li>
+<p>Verify that the ec2-user can run Docker commands without sudo.</p>
+</li>
+</ol>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">docker info
+</code></pre></div><ol start="8">
+<li>Change the user of the current session to &lsquo;root&rsquo;</li>
+</ol>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo -s
+</code></pre></div><ol start="9">
+<li>Download HDP 2.6.5 sandbox files</li>
+</ol>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">curl -O https://archive.cloudera.com/hwx-sandbox/hdp/hdp-2.6.5/HDP_2.6.5_deploy-scripts_180624d542a25.zip
+</code></pre></div><p>This link is obtained from: <a href="https://www.cloudera.com/downloads/hortonworks-sandbox/hdp.html">https://www.cloudera.com/downloads/hortonworks-sandbox/hdp.html</a>
+10. Unzip the downloaded files</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">unzip HDP_2.6.5_deploy-scripts_180624d542a25.zip
+</code></pre></div><ol start="11">
+<li>Run the HDP setup script</li>
+</ol>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">bash docker-deploy-hdp265.sh
+</code></pre></div><ol start="12">
+<li>Test if the HDP sandbox is running properly</li>
+</ol>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">curl localhost:8080
+</code></pre></div><ul>
+<li>If response received is as below, then all is well. 
 <figure>
-    <img src="https://jithinsisaac.github.io/images/node-red-install-aws.jpg"
-         alt="Node-RED on AWS EC2 instance"/> <figcaption>
-            <p>Node-RED on AWS EC2 instance</p>
-        </figcaption>
+    <img src="https://jithinsisaac.github.io/files/hdp-sandbox.png" width="600"/> 
+</figure>
+</li>
+</ul>
+<ol start="13">
+<li>
+<p>Apache Ambari should now be available in the browser from<br>
+&lt;AWS_Public_IP_host_name&gt;:8080<br>
+Username: raj_ops<br>
+Password: raj_ops</p>
+</li>
+<li>
+<p>Logout now. HDP Sandbox terminal can be accessed from</p>
+</li>
+</ol>
+<ul>
+<li>Port: 2222</li>
+<li>Username: root</li>
+<li>Password: hadoop</li>
+<li>Login using these credentials at Port 2222</li>
+</ul>
+<ol start="15">
+<li>After logging in verify,</li>
+</ol>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sandbox-version
+</code></pre></div><p>Output should be:
+<figure>
+    <img src="https://jithinsisaac.github.io/files/hdp-sandbox-version.png" width="500"/> 
 </figure>
 
-<p>That&rsquo;s it. Enjoy learning and exploring Node-RED!</p>
+16. Check installed version of Hadoop and Hive</p>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">hadoop version
+hive --version
+</code></pre></div><p>Hadoop 2.7.3.2.6.5.0-292 &amp; Hive 1.2.1000.2.6.5.0-292 should be obtained.</p>
+<p>You can now continue in your journey to exploring Big Data Analytics using the HDP Sandbox.. Enjoy!</p>
+<p><strong>Credits:</strong> <a href="https://energie.labs.fhv.at/~repe/bigdata/introduction-to-big-data-projects/tutorials/hdp-sandbox-deploy-2019/">Peter Reiter, Thomas Feilhauer, Armin Simma from FH Vorarlberg University of Applied Sciences, Austria</a></p>
 
       </div>
 
@@ -231,10 +285,6 @@ sudo systemctl start nodered.service
         
         
           
-            <li>
-              <a href="https://jithinsisaac.github.io/posts/hdp_sandbox/">Hortonworks Data Platform (HDP) Sandbox on AWS EC2</a>
-            </li>
-          
         
           
             <li>
@@ -248,6 +298,10 @@ sudo systemctl start nodered.service
             </li>
           
         
+          
+            <li>
+              <a href="https://jithinsisaac.github.io/posts/aws_nodered/">Node-RED installation locally or on AWS EC2</a>
+            </li>
           
         
           
