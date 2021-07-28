@@ -152,7 +152,7 @@
             </span>
             <span class="reading-time">
               <i class="fas fa-clock"></i>
-              2-minute read
+              3-minute read
             </span>
           </div>
           
@@ -265,7 +265,16 @@ Password: raj_ops</p>
 <div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">hadoop version
 hive --version
 </code></pre></div><p>Hadoop 2.7.3.2.6.5.0-292 &amp; Hive 1.2.1000.2.6.5.0-292 should be obtained.</p>
-<p>You can now continue in your journey to exploring Big Data Analytics using the HDP Sandbox.. Enjoy!</p>
+<ol start="17">
+<li>On reboot, the docker container does not start. Do the follow for it to restart after every reboot.</li>
+</ol>
+<div class="highlight"><pre style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">docker stop sandbox-hdp
+docker stop sandbox-proxy
+docker update --restart unless-stopped sandbox-hdp
+docker update --restart unless-stopped sandbox-proxy
+docker container start sandbox-hdp
+docker container start sandbox-proxy
+</code></pre></div><p>You can now continue in your journey to exploring Big Data Analytics using the HDP Sandbox.. Enjoy!</p>
 <p><strong>Credits:</strong> <a href="https://energie.labs.fhv.at/~repe/bigdata/introduction-to-big-data-projects/tutorials/hdp-sandbox-deploy-2019/">Peter Reiter, Thomas Feilhauer, Armin Simma from FH Vorarlberg University of Applied Sciences, Austria</a></p>
 
       </div>
