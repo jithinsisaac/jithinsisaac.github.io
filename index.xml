@@ -94,7 +94,7 @@ $$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$</description>
     </item>
     
     <item>
-      <title></title>
+      <title>About</title>
       <link>https://jithinsisaac.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -103,7 +103,7 @@ $$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$</description>
     </item>
     
     <item>
-      <title></title>
+      <title>Academics</title>
       <link>https://jithinsisaac.github.io/academics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -112,7 +112,7 @@ $$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$</description>
     </item>
     
     <item>
-      <title></title>
+      <title>Contact</title>
       <link>https://jithinsisaac.github.io/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -120,37 +120,6 @@ $$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$</description>
       <description>ContactIf you are interested in working on any of my current or past projects or you want to explore any of the many electronic modules which I work on, you are most welcome to drop me an email. I will reply to you at the earliest!
  Email jithin at dbit dot in OR jithin dot dbit at the rate dbclmumbai dot org
  Twitter DM @jithinisaac</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://jithinsisaac.github.io/projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jithinsisaac.github.io/projects/</guid>
-      <description>Projects#Only completed &amp;amp; finished products showcased here
-##Numerous test protoypes &amp;amp; thousands of hours of testing &amp;amp; debugging form the backend :)
-LoRaWAN Accelerometer Sensor end node
- Completed Project 2021 Uses Microchip WLR089U0 LoRaWAN Module + ADXL355Z Sends Accelerometer data via LoRaWAN to a server for data analysis Project Deliverable: Development of Firmware &amp;amp; PCB design of sensor node PCB design consists of a minitature board consisting of Li-ion battery power supply, WLR089 and ADXL355Z accelerometer sensor Project Prototype completed for Promethean Energy Pvt.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://jithinsisaac.github.io/skills/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jithinsisaac.github.io/skills/</guid>
-      <description>Skillsets, learned &amp;amp; ever learning!Embedded Systems &amp;amp; Internet of Things   There&amp;rsquo;s no greater satisfaction for me than to see a final fabricated embedded PCB board designed inhouse, after multiple prototyping iterations. The green solder mask with your custom silkscreen hides layers of efforts &amp;amp; hardwork undertaken to achieve the final result The globalisation of technology &amp;amp; the open source adoption at the software &amp;amp; hardware level has truly revolutionaized the way we learn &amp;amp; teach electronics!</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://jithinsisaac.github.io/workshops/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jithinsisaac.github.io/workshops/</guid>
-      <description>Workshops conductedLoRaWAN: Wireless System Design using Arduino, STM, KiCad, NodeRed &amp;amp; Grafana Contents of the Workshop
- LPWAN Introduction LoRa Architecture LoRaWAN Architecture  End Node Gateway Network Server Application Server MAC Layer Spreading Factor Device Classes Device Activation Methods Indian Band for LoRa   End Node  LoRa RF Modules (HopeRF, Dorji) LoRaWAN Modules (RAK, Murata) Interfacing with ATMega328P/STML0 Application Firmware  For ATMega328P For Murata module For STM32L   Sensor Interfacing Testing &amp;amp; Debugging   Gateway  Single v/s Multi channel Gateway RAK + RPi Multi channel Gateway Gateway configuration   Network Server  The Things Network configuration Chirpstack (LoRaServer) Private Server  Installation Configuration   Talking with the End Node via Gateway   Node Red  Installation &amp;amp; Setup Flows Sensor value segregation Dashboard generation Class A &amp;amp; C implementation   Grafana  Installation &amp;amp; Setup Data storage in database Data extraction &amp;amp; Plotting    Conducted On &amp;amp; at</description>
     </item>
     
     <item>
@@ -164,6 +133,18 @@ pwd </description>
     </item>
     
     <item>
+      <title>Projects</title>
+      <link>https://jithinsisaac.github.io/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jithinsisaac.github.io/projects/</guid>
+      <description>Projects#Only completed &amp;amp; finished products showcased here
+##Numerous test protoypes &amp;amp; thousands of hours of testing &amp;amp; debugging form the backend :)
+LoRaWAN Accelerometer Sensor end node
+ Completed Project 2021 Uses Microchip WLR089U0 LoRaWAN Module + ADXL355Z Sends Accelerometer data via LoRaWAN to a server for data analysis Project Deliverable: Development of Firmware &amp;amp; PCB design of sensor node PCB design consists of a minitature board consisting of Li-ion battery power supply, WLR089 and ADXL355Z accelerometer sensor Project Prototype completed for Promethean Energy Pvt.</description>
+    </item>
+    
+    <item>
       <title>Second snippet</title>
       <link>https://jithinsisaac.github.io/snippets/second/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -171,6 +152,25 @@ pwd </description>
       <guid>https://jithinsisaac.github.io/snippets/second/</guid>
       <description>This content is in snippets/second/index.md
 ls -la </description>
+    </item>
+    
+    <item>
+      <title>Skills</title>
+      <link>https://jithinsisaac.github.io/skills/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jithinsisaac.github.io/skills/</guid>
+      <description>Skillsets, learned &amp;amp; ever learning!Embedded Systems &amp;amp; Internet of Things   There&amp;rsquo;s no greater satisfaction for me than to see a final fabricated embedded PCB board designed inhouse, after multiple prototyping iterations. The green solder mask with your custom silkscreen hides layers of efforts &amp;amp; hardwork undertaken to achieve the final result The globalisation of technology &amp;amp; the open source adoption at the software &amp;amp; hardware level has truly revolutionaized the way we learn &amp;amp; teach electronics!</description>
+    </item>
+    
+    <item>
+      <title>Workshops</title>
+      <link>https://jithinsisaac.github.io/workshops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jithinsisaac.github.io/workshops/</guid>
+      <description>Workshops conductedLoRaWAN: Wireless System Design using Arduino, STM, KiCad, NodeRed &amp;amp; Grafana Contents of the Workshop
+ LPWAN Introduction LoRa Architecture LoRaWAN Architecture  End Node Gateway Network Server Application Server MAC Layer Spreading Factor Device Classes Device Activation Methods Indian Band for LoRa   End Node  LoRa RF Modules (HopeRF, Dorji) LoRaWAN Modules (RAK, Murata) Interfacing with ATMega328P/STML0 Application Firmware  For ATMega328P For Murata module For STM32L   Sensor Interfacing Testing &amp;amp; Debugging   Gateway  Single v/s Multi channel Gateway RAK + RPi Multi channel Gateway Gateway configuration   Network Server  The Things Network configuration Chirpstack (LoRaServer) Private Server  Installation Configuration   Talking with the End Node via Gateway   Node Red  Installation &amp;amp; Setup Flows Sensor value segregation Dashboard generation Class A &amp;amp; C implementation   Grafana  Installation &amp;amp; Setup Data storage in database Data extraction &amp;amp; Plotting    Conducted On &amp;amp; at</description>
     </item>
     
   </channel>

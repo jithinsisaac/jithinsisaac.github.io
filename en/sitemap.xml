@@ -121,22 +121,6 @@
   </url>
   
   <url>
-    <loc>https://jithinsisaac.github.io/contact/</loc>
-  </url>
-  
-  <url>
-    <loc>https://jithinsisaac.github.io/projects/</loc>
-  </url>
-  
-  <url>
-    <loc>https://jithinsisaac.github.io/skills/</loc>
-  </url>
-  
-  <url>
-    <loc>https://jithinsisaac.github.io/workshops/</loc>
-  </url>
-  
-  <url>
     <loc>https://jithinsisaac.github.io/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -151,11 +135,23 @@
   </url>
   
   <url>
+    <loc>https://jithinsisaac.github.io/contact/</loc>
+  </url>
+  
+  <url>
     <loc>https://jithinsisaac.github.io/snippets/first/</loc>
   </url>
   
   <url>
+    <loc>https://jithinsisaac.github.io/projects/</loc>
+  </url>
+  
+  <url>
     <loc>https://jithinsisaac.github.io/snippets/second/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jithinsisaac.github.io/skills/</loc>
   </url>
   
   <url>
@@ -174,6 +170,10 @@
                 hreflang="en"
                 href="https://jithinsisaac.github.io/tags/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://jithinsisaac.github.io/workshops/</loc>
   </url>
   
 </urlset>
