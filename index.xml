@@ -99,7 +99,7 @@ $$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jithinsisaac.github.io/about/</guid>
-      <description>AboutAbout the site  I remember using the omnipresent wordpress, blogpost and other CMS a decade ago, and hosting it on crappy hosting services with buggy implementations. Fast forward to 2020, the necessaity of a personal portfolio webpage inspired me to try something different. The result of which is an attempt to design and make this portfolio &amp;amp; blogging page. Searching around made me read about Static Web Pages and how it was taking over the domain of blogging, and basically sites with static content, by storm.</description>
+      <description>About the site  I remember using the omnipresent wordpress, blogpost and other CMS a decade ago, and hosting it on crappy hosting services with buggy implementations. Fast forward to 2020, the necessaity of a personal portfolio webpage inspired me to try something different. The result of which is an attempt to design and make this portfolio &amp;amp; blogging page. Searching around made me read about Static Web Pages and how it was taking over the domain of blogging, and basically sites with static content, by storm.</description>
     </item>
     
     <item>
@@ -108,7 +108,7 @@ $$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jithinsisaac.github.io/academics/</guid>
-      <description>AcademicsCourses Taught    Academic Year Semester Class Courses Taught     2021-2022 Odd Semester Fourth Year EXTC Big Data Analytics   2020-2021 Even Semester Second Year EXTC Python Skill Lab     Third Year EXTC Database Management System   2020-2021 Odd Semester Second Year EXTC Network Theory     Fourth Year EXTC Big Data Analytics   2019-2020 Even Semester Second Year EXTC Signals &amp;amp; Systems     Third Year EXTC Database Management System    Odd Semester Second Year EXTC Circuit Theory &amp;amp; Networks     Fourth Year EXTC Big Data Analytics   2018-2019 Even Semester Second Year EXTC Signals &amp;amp; Systems     Third Year EXTC Database Management Systems    Odd Semester Second Year EXTC Circuit Theory &amp;amp; Networks     Third Year EXTC Discrete Time Signal Processing   2017-2018 Even Semester Second Year EXTC Signals &amp;amp; Systems    Odd Semester Second Year EXTC Circuit Theory &amp;amp; Networks   2016-2017 Even Semester Second Year EXTC Signals &amp;amp; Systems    Odd Semester Third Year EXTC Analog Communication   2015-2016 Even Semester Second Year EXTC MicroProcessors (Intel 8086)    Odd Semester Third Year EXTC Analog Communication     Fourth Year COMP Digital Signal Processing   2014-2015 Even Semester Third Year EXTC Discrete Time Signal Processing    Odd Semester Third Year EXTC Analog Communication   2012-2013 Even Semester Second Year EXTC Electronic Devices &amp;amp; Circuits II    Odd Semester Third Year EXTC Principles of Control Systems     Professional Responsibilites held @ DBIT  Project Coordinator &amp;amp; Innovex coordinator (AY 2016-17 to AY 2018-19) Faculty in charge, IETE DBIT Student body (2017 &amp;amp; 2018) Faculty contributor for IoT, Robotics Club &amp;amp; School of Automation (2017-2019) Sports Committee convenor (AY 2015-16 to AY 2020-21)   Papers Published Google Scholar Link</description>
+      <description>Courses Taught    Academic Year Semester Class Courses Taught     2021-2022 Odd Semester Fourth Year EXTC Big Data Analytics   2020-2021 Even Semester Second Year EXTC Python Skill Lab     Third Year EXTC Database Management System   2020-2021 Odd Semester Second Year EXTC Network Theory     Fourth Year EXTC Big Data Analytics   2019-2020 Even Semester Second Year EXTC Signals &amp;amp; Systems     Third Year EXTC Database Management System    Odd Semester Second Year EXTC Circuit Theory &amp;amp; Networks     Fourth Year EXTC Big Data Analytics   2018-2019 Even Semester Second Year EXTC Signals &amp;amp; Systems     Third Year EXTC Database Management Systems    Odd Semester Second Year EXTC Circuit Theory &amp;amp; Networks     Third Year EXTC Discrete Time Signal Processing   2017-2018 Even Semester Second Year EXTC Signals &amp;amp; Systems    Odd Semester Second Year EXTC Circuit Theory &amp;amp; Networks   2016-2017 Even Semester Second Year EXTC Signals &amp;amp; Systems    Odd Semester Third Year EXTC Analog Communication   2015-2016 Even Semester Second Year EXTC MicroProcessors (Intel 8086)    Odd Semester Third Year EXTC Analog Communication     Fourth Year COMP Digital Signal Processing   2014-2015 Even Semester Third Year EXTC Discrete Time Signal Processing    Odd Semester Third Year EXTC Analog Communication   2012-2013 Even Semester Second Year EXTC Electronic Devices &amp;amp; Circuits II    Odd Semester Third Year EXTC Principles of Control Systems     Professional Responsibilites held @ DBIT  Project Coordinator &amp;amp; Innovex coordinator (AY 2016-17 to AY 2018-19) Faculty in charge, IETE DBIT Student body (2017 &amp;amp; 2018) Faculty contributor for IoT, Robotics Club &amp;amp; School of Automation (2017-2019) Sports Committee convenor (AY 2015-16 to AY 2020-21)   Papers Published Google Scholar Link</description>
     </item>
     
     <item>
@@ -117,9 +117,10 @@ $$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jithinsisaac.github.io/contact/</guid>
-      <description>ContactIf you are interested in working on any of my current or past projects or you want to explore any of the many electronic modules which I work on, you are most welcome to drop me an email. I will reply to you at the earliest!
+      <description>If you are interested in working on any of my current or past projects or you want to explore any of the many electronic modules which I work on, you are most welcome to drop me an email. I will reply to you at the earliest!
  Email jithin at dbit dot in OR jithin dot dbit at the rate dbclmumbai dot org
- Twitter DM @jithinisaac</description>
+ Twitter DM @jithinisaac
+ Fork my Github Repositories @jithinsisaac</description>
     </item>
     
     <item>
@@ -138,7 +139,7 @@ pwd </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jithinsisaac.github.io/projects/</guid>
-      <description>Projects#Only completed &amp;amp; finished products showcased here
+      <description>#Only completed &amp;amp; finished products showcased here
 ##Numerous test protoypes &amp;amp; thousands of hours of testing &amp;amp; debugging form the backend :)
 LoRaWAN Accelerometer Sensor end node
  Completed Project 2021 Uses Microchip WLR089U0 LoRaWAN Module + ADXL355Z Sends Accelerometer data via LoRaWAN to a server for data analysis Project Deliverable: Development of Firmware &amp;amp; PCB design of sensor node PCB design consists of a minitature board consisting of Li-ion battery power supply, WLR089 and ADXL355Z accelerometer sensor Project Prototype completed for Promethean Energy Pvt.</description>
@@ -160,7 +161,7 @@ ls -la </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jithinsisaac.github.io/skills/</guid>
-      <description>Skillsets, learned &amp;amp; ever learning!Embedded Systems &amp;amp; Internet of Things   There&amp;rsquo;s no greater satisfaction for me than to see a final fabricated embedded PCB board designed inhouse, after multiple prototyping iterations. The green solder mask with your custom silkscreen hides layers of efforts &amp;amp; hardwork undertaken to achieve the final result The globalisation of technology &amp;amp; the open source adoption at the software &amp;amp; hardware level has truly revolutionaized the way we learn &amp;amp; teach electronics!</description>
+      <description>Embedded Systems &amp;amp; Internet of Things   There&amp;rsquo;s no greater satisfaction for me than to see a final fabricated embedded PCB board designed inhouse, after multiple prototyping iterations. The green solder mask with your custom silkscreen hides layers of efforts &amp;amp; hardwork undertaken to achieve the final result The globalisation of technology &amp;amp; the open source adoption at the software &amp;amp; hardware level has truly revolutionaized the way we learn &amp;amp; teach electronics!</description>
     </item>
     
     <item>
@@ -169,7 +170,7 @@ ls -la </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jithinsisaac.github.io/workshops/</guid>
-      <description>Workshops conductedLoRaWAN: Wireless System Design using Arduino, STM, KiCad, NodeRed &amp;amp; Grafana Contents of the Workshop
+      <description>LoRaWAN: Wireless System Design using Arduino, STM, KiCad, NodeRed &amp;amp; Grafana Contents of the Workshop
  LPWAN Introduction LoRa Architecture LoRaWAN Architecture  End Node Gateway Network Server Application Server MAC Layer Spreading Factor Device Classes Device Activation Methods Indian Band for LoRa   End Node  LoRa RF Modules (HopeRF, Dorji) LoRaWAN Modules (RAK, Murata) Interfacing with ATMega328P/STML0 Application Firmware  For ATMega328P For Murata module For STM32L   Sensor Interfacing Testing &amp;amp; Debugging   Gateway  Single v/s Multi channel Gateway RAK + RPi Multi channel Gateway Gateway configuration   Network Server  The Things Network configuration Chirpstack (LoRaServer) Private Server  Installation Configuration   Talking with the End Node via Gateway   Node Red  Installation &amp;amp; Setup Flows Sensor value segregation Dashboard generation Class A &amp;amp; C implementation   Grafana  Installation &amp;amp; Setup Data storage in database Data extraction &amp;amp; Plotting    Conducted On &amp;amp; at</description>
     </item>
     
